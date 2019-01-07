@@ -4,11 +4,11 @@ Its a simple Mean App. which allow you to create and manage notes in daily basis
 There is two sperate dir for front-end and back-end code.
 
 
-Step to run the app
+Steps
 
-cd BackendNotesApp
-npm install
-npm start
+* cd BackendNotesApp
+* npm install
+* npm start
 
 
 Important point
