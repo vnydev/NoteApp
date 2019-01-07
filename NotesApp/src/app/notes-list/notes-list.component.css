@@ -1,0 +1,11 @@
+.note-list{
+    width: 100%;
+    background-color: rgb(28, 103, 107);
+}
+table {
+    width: 100%;
+  }
+
+.note-list button{
+    margin-right: 1%;
+}

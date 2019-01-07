@@ -1,0 +1,21 @@
+<form class="createNote" [formGroup]="NoteForm" (ngSubmit)="createNote(NoteForm.value)">
+  <table class="note-table" cellspacing="0">
+    <tr>
+      <td class="name">
+        <mat-form-field class="mat">
+          <input matInput placeholder="Name" formControlName="name">
+        </mat-form-field>
+      </td>
+      <td class="note">
+          <mat-form-field class="mat">
+            <textarea matInput placeholder="Note" formControlName="note" matTextareaAutosize ></textarea>
+          </mat-form-field>
+        </td>
+      <td class="btn">
+          <button type="submit" mat-flat-button color="primary" [disabled]="!NoteForm.valid">Create Note</button>
+        </td>
+    </tr>
+  </table>
+</form>
+<app-notes-list (EditEvent)="EditNote($event)"></app-notes-list>
+

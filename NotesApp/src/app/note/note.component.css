@@ -1,0 +1,27 @@
+.createNote{
+    width: 100%;
+    background-color:rgb(82, 125, 132);
+    margin-bottom: 3%;
+}
+.mat{
+    width: 100%;
+}
+.note-table{
+    width: 100%;
+    padding: 5%;
+    padding-left: 22%;
+}
+
+.note-table .name{
+    width: 1%;
+    padding: 1%
+}
+.note-table .note{
+    width: 4%;
+    padding: 1%
+}
+
+.note-table .btn{
+    width: 5%;
+    padding: 1%
+}
